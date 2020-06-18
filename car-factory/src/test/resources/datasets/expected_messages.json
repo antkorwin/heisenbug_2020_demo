@@ -1,0 +1,16 @@
+{
+  "com.antkorwin.heisenbug.contracts.event.CarEvent": [
+    {
+      "type": "CREATE_NEW_CAR",
+      "car": {
+        "name": "js-match: value == ('b'+'a'+ + 'a' + 'a')",
+        "engine": {
+          "name": "V6-Turbo",
+          "volume": 4.7,
+          "horsePower": 396,
+          "fuelType": "GASOLINE"
+        }
+      }
+    }
+  ]
+}

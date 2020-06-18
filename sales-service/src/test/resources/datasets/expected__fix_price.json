@@ -1,0 +1,5 @@
+{
+  "com.antkorwin.heisenbug.sales.model.Item" : [ {
+    "price" : "js-match: value > 10000"
+  } ]
+}

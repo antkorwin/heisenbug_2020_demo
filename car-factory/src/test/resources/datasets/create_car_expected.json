@@ -1,0 +1,25 @@
+{
+  "CAR": [
+    {
+      "ID": "regex:([a-f0-9]{8}(-[a-f0-9]{4}){4}[a-f0-9]{8})",
+      "NAME": "Dodge Ram",
+      "SERIAL_NUMBER": "regex:(DODGE-RAM-[a-f0-9]{8})",
+      "YEAR": 2020,
+      "ENGINE_ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa"
+    }
+  ],
+  "ENGINE": [
+    {
+      "ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa",
+      "FUEL_TYPE": "DIESEL",
+      "HORSE_POWER": 160,
+      "VOLUME": 4.199999809265137
+    },
+    {
+      "ID": "fe83dfbb-2e59-437b-b061-fe8cdb928847",
+      "FUEL_TYPE": "GASOLINE",
+      "HORSE_POWER": 396,
+      "VOLUME": 4.699999809265137
+    }
+  ]
+}

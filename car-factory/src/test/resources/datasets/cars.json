@@ -1,0 +1,30 @@
+{
+  "car": [
+    {
+      "is": "009f21e0-6f1c-4fc5-baa9-5893303caf82",
+      "name": "Mustang",
+      "year": 1970,
+      "engine_id": "fe83dfbb-2e59-437b-b061-fe8cdb928847"
+    },
+    {
+      "id": "f408e5a7-88bf-4db8-9d9d-570647ce89be",
+      "name": "Range Rover",
+      "year": 2000,
+      "engine_id": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa"
+    }
+  ],
+  "engine": [
+    {
+      "id": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa",
+      "fuel_type": "DIESEL",
+      "horse_power": 160,
+      "volume": 4.199999809265137
+    },
+    {
+      "id": "fe83dfbb-2e59-437b-b061-fe8cdb928847",
+      "fuel_type": "GASOLINE",
+      "horse_power": 396,
+      "volume": 4.699999809265137
+    }
+  ]
+}

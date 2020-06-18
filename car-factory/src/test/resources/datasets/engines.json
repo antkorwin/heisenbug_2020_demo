@@ -1,0 +1,17 @@
+{
+  "ENGINE": [
+    {
+      "ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa",
+      "FUEL_TYPE": "DIESEL",
+      "HORSE_POWER": 160,
+      "VOLUME": 4.199999809265137
+    },
+    {
+      "ID": "fe83dfbb-2e59-437b-b061-fe8cdb928847",
+      "FUEL_TYPE": "GASOLINE",
+      "NAME": "V6-Turbo",
+      "HORSE_POWER": 396,
+      "VOLUME": 4.699999809265137
+    }
+  ]
+}

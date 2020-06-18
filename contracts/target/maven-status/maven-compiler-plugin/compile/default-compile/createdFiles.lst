@@ -1,0 +1,10 @@
+com/antkorwin/heisenbug/contracts/event/CarEvent$CarEventBuilder.class
+com/antkorwin/heisenbug/carfactory/notes/Bad.class
+com/antkorwin/heisenbug/contracts/event/dto/CarDto$CarDtoBuilder.class
+com/antkorwin/heisenbug/contracts/event/CarEvent.class
+com/antkorwin/heisenbug/contracts/event/EventType.class
+com/antkorwin/heisenbug/contracts/event/dto/CarDto.class
+com/antkorwin/heisenbug/contracts/event/dto/EngineDto$EngineDtoBuilder.class
+com/antkorwin/heisenbug/carfactory/notes/Ugly.class
+com/antkorwin/heisenbug/carfactory/notes/Good.class
+com/antkorwin/heisenbug/contracts/event/dto/EngineDto.class

@@ -1,0 +1,19 @@
+{
+  "com.antkorwin.heisenbug.sales.model.Item": [
+    {
+      "id": "js-match: value != null",
+      "price": "js-match: value > 10000",
+      "car": {
+        "name": "Camaro",
+        "engine": {
+          "name": "V8",
+          "volume": 5.7,
+          "horsePower": 420,
+          "fuelType": "GASOLINE"
+        }
+      },
+      "createTime": "date-match: [NOW]",
+      "startSalesTime": "date-match: [NOW]+7(DAYS)"
+    }
+  ]
+}

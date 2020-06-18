@@ -1,0 +1,39 @@
+{
+  "CAR": [
+    {
+      "ID": "009f21e0-6f1c-4fc5-baa9-5893303caf82",
+      "NAME": "Mustang",
+      "YEAR": 1970,
+      "ENGINE_ID": "fe83dfbb-2e59-437b-b061-fe8cdb928847",
+      "DATE_OF_CONSTRUCT": "2020-03-03"
+    },
+    {
+      "ID": "f408e5a7-88bf-4db8-9d9d-570647ce89be",
+      "NAME": "Range Rover",
+      "YEAR": 2000,
+      "ENGINE_ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa",
+      "DATE_OF_CONSTRUCT": "2020-01-03"
+    },
+    {
+      "ID": "c408e5a7-88bf-4db8-9d9d-570647ce89aa",
+      "NAME": "Bat-mobile",
+      "YEAR": 2030,
+      "DATE_OF_CONSTRUCT": "[DAY,NOW]",
+      "ENGINE_ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa"
+    }
+  ],
+  "ENGINE": [
+    {
+      "ID": "d1ef755d-f593-4f90-98f0-e2f4e4b24faa",
+      "FUEL_TYPE": "DIESEL",
+      "HORSE_POWER": 160,
+      "VOLUME": 4.199999809265137
+    },
+    {
+      "ID": "fe83dfbb-2e59-437b-b061-fe8cdb928847",
+      "FUEL_TYPE": "GASOLINE",
+      "HORSE_POWER": 396,
+      "VOLUME": 4.699999809265137
+    }
+  ]
+}

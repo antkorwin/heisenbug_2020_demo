@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.antkorwin.heisenbug</groupId>
+        <artifactId>heisenbug-2020</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <artifactId>sales-service</artifactId>
+    <version>0.1</version>
+    <packaging>jar</packaging>
+
+    <name>sales-service</name>
+    <description>HeisenBUG 2020 Demo project</description>
+
+
+
+    <dependencies>
+
+        <!-- RabbitMQ -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jupiter-tools</groupId>
+            <artifactId>spring-test-rabbitmq</artifactId>
+            <version>0.4-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- RabbitMQ -->
+
+        <!-- MongoDb -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jupiter-tools</groupId>
+            <artifactId>spring-test-mongo</artifactId>
+            <version>0.14</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- MongoDb -->
+
+        <dependency>
+            <groupId>com.antkorwin.heisenbug</groupId>
+            <artifactId>contracts</artifactId>
+            <version>0.1</version>
+        </dependency>
+
+        <!-- Groovy -->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.6</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Groovy -->
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>
+    </build>
+
+</project>

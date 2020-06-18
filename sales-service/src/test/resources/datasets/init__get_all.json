@@ -1,0 +1,28 @@
+{
+  "com.antkorwin.heisenbug.sales.model.Item": [
+    {
+      "id": "groovy: java.util.UUID.randomUUID().toString()",
+      "price": 45000,
+      "car": {
+        "name": "Mustang",
+        "engine": {
+          "name": "V8",
+          "horsePower": "groovy: 500+50",
+          "fuelType": "GASOLINE"
+        }
+      }
+    },
+    {
+      "id": "groovy: java.util.UUID.randomUUID().toString()",
+      "price": 57000,
+      "car": {
+        "name": "Camaro 87",
+        "engine": {
+          "name": "V6",
+          "horsePower": 450,
+          "fuelType": "GASOLINE"
+        }
+      }
+    }
+  ]
+}

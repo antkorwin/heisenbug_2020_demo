@@ -1,0 +1,13 @@
+{
+  "com.antkorwin.heisenbug.sales.model.Item" : [ {
+    "price" : 57000,
+    "car" : {
+      "name" : "Camaro",
+      "engine" : {
+        "name" : "V6",
+        "horsePower" : 420,
+        "fuelType" : "GASOLINE"
+       }
+    }
+  } ]
+}

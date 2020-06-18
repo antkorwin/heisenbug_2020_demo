@@ -1,0 +1,14 @@
+{
+  "com.antkorwin.heisenbug.sales.model.Item" : [ {
+    "id" : "js-match: value != null",
+    "price" : 45000,
+    "car" : {
+      "name" : "Mustang",
+      "engine" : {
+        "name" : "V8",
+        "horsePower" : 550,
+        "fuelType" : "GASOLINE"
+      }
+    }
+  } ]
+}
